@@ -1,5 +1,5 @@
 <template>
-<main class="features">
+<main class="features" id="features">
   <div class="features__container">
     <div class="left">
       <img src="../../assets/Features/product.png" alt="">

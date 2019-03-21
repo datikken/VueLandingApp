@@ -6,8 +6,8 @@
     </div>
     <div class="menu-container">
       <ul class="menu">
-        <li><a href="#" class="menu-item">Home</a></li>
-        <li><a href="#" class="menu-item">About</a></li>
+        <li><a href="https://www.youtube.com/watch?v=cDvZaXzQezs" class="menu-item">Home</a></li>
+        <li><a href="#features" class="menu-item">About</a></li>
         <li><a href="#" class="menu-item">Portfolio</a></li>
         <li><a href="#" class="menu-item">Contact</a></li>
       </ul>
@@ -26,9 +26,6 @@
     </Cta>
   </div>
   </div>
-  <img src="../../assets/banner/Oval.png" alt="" class="oval">
-  <img src="../../assets/banner/telephone.png" alt="" class="telephone">
-
   <div class="clouds"></div>
   <div class="clouds1"></div>
   <div class="clouds2"></div>
@@ -63,13 +60,15 @@
   color: black;
   font-size: 1.5rem;
   color: #fff;
+  position: relative;
+  z-index: 99;
 }
 
 .oval {
     position: absolute;
     right: 0;
     top: 0;
-    z-index: 1;
+    z-index: 0;
     width: 45%;
 }
 
@@ -82,6 +81,7 @@
 .banner {
   background-image: url('../../assets/banner/background.png');
   height: 135vh;
+  z-index: -2;
 }
 
 .content {
