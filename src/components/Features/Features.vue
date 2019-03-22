@@ -46,6 +46,9 @@
 </main>
 </template>
 <style scoped>
+.features {
+  margin-bottom: 8rem;
+}
 
 .features__container, .features__container2 {
     display: flex;

@@ -3,6 +3,7 @@
     <Header/>
     <Banner/>
     <Features/>
+    <Global/>
   </div>
 </template>
 
@@ -10,6 +11,7 @@
 import Header from './components/Header/Header.vue'
 import Banner from './components/Banner/Banner.vue'
 import Features from './components/Features/Features.vue'
+import Global from './components/Global/Global.vue'
 
 export default {
   name: 'app',
@@ -17,6 +19,7 @@ export default {
     Header,
     Banner,
     Features,
+    Global
   }
 }
 </script>
