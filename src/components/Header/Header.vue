@@ -32,7 +32,12 @@
 </header>
 </template>
 
-<style>
+<style scoped>
+.content__button {
+  background: #414056;
+  box-shadow: 0 .8rem 2rem rgba(0,0,0, .5);
+}
+
 .navbar {
   background-color: #2E87EC;
   color: #fff;
@@ -46,7 +51,7 @@
 }
 
 .logo {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 .menu {
@@ -62,20 +67,6 @@
   color: #fff;
   position: relative;
   z-index: 99;
-}
-
-.oval {
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: 0;
-    width: 45%;
-}
-
-.telephone {
-  position: absolute;
-  top: 14rem;
-  right: 10rem;
 }
 
 .content {

@@ -69,6 +69,7 @@
   font-size: 1.8rem;
   margin-bottom: 2rem;
 }
+
 .content__heading {
   color: #fff;
   height: 5rem;
@@ -76,6 +77,7 @@
   top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
+  font-size: 3rem;
 }
 
 </style>

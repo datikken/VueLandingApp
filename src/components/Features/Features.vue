@@ -46,6 +46,7 @@
 </main>
 </template>
 <style scoped>
+  
 .features {
   margin-bottom: 8rem;
 }

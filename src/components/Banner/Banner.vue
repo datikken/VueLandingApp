@@ -9,8 +9,22 @@
 
 .banner {
   background-image: url('../../assets/banner/background.png');
-  height: 135vh;
+  height: 130vh;
   z-index: -2;
+}
+
+.oval {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 0;
+    width: 45%;
+}
+
+.telephone {
+  position: absolute;
+  top: 14rem;
+  right: 10rem;
 }
 
 </style>

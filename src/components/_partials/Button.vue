@@ -12,8 +12,8 @@
   margin-top: 3rem;
   font-size: 1.5rem;
   position: relative;
-  background-color: black;
-  box-shadow: 0 1rem 1.5rem rgba(0,0,0, .3);
+  background-color: #6C63FF;
+  box-shadow: 0 1.1rem 2rem rgba(108, 99, 255, .5);
   color: #fff;
 }
 

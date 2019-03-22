@@ -4,6 +4,10 @@
     <Banner/>
     <Features/>
     <Global/>
+    <Pricing/>
+    <Call/>
+    <Partners/>
+    <Footer/>
   </div>
 </template>
 
@@ -12,6 +16,10 @@ import Header from './components/Header/Header.vue'
 import Banner from './components/Banner/Banner.vue'
 import Features from './components/Features/Features.vue'
 import Global from './components/Global/Global.vue'
+import Pricing from './components/Pricing/Pricing.vue'
+import Call from './components/MainCall/Call.vue'
+import Partners from './components/Partners/Partners.vue'
+import Footer from './components/Footer/Footer.vue'
 
 export default {
   name: 'app',
@@ -19,7 +27,11 @@ export default {
     Header,
     Banner,
     Features,
-    Global
+    Global,
+    Pricing,
+    Call,
+    Partners,
+    Footer
   }
 }
 </script>
